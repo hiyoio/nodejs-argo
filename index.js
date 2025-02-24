@@ -1,14 +1,15 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 
 const projectPageURL = process.env.URL || '';        // 
-const intervalInseconds = process.env.TIME || 120;   // 
-const UUID = process.env.UUID || 'f4bff9dd-2110-41b2-b594-7d2b20db779e';
-const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     //
-const NEZHA_PORT = process.env.NEZHA_PORT || '';              // 
-const NEZHA_KEY = process.env.NEZHA_KEY || '';                    //
+const intervalInseconds = process.env.TIME || 120;   //
+const UUID = process.env.UUID || 'c07f4b1b-954c-4d68-ac3a-9ac8075a8264';
+const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     // 
+const NEZHA_PORT = process.env.NEZHA_PORT || '5555';              // 
+const NEZHA_KEY = process.env.NEZHA_KEY || '';                    // 
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';                // 
 const ARGO_AUTH = process.env.ARGO_AUTH || '';                    // 
-const CFIP = process.env.CFIP || 'linux.do';               // 
+const CFIP = process.env.CFIP || 'linux.do';               //
 const CFPORT = process.env.CFPORT || 443;                         // 
+const NAME = process.env.NAME || 'lade-sg';                           // 
 const ARGO_PORT = process.env.ARGO_PORT || 8001;                  // 
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000; // 
 
